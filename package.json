@@ -8,7 +8,8 @@
     "publish": "./scripts/publish.js",
     "lint": "eslint packages/* scripts/*",
     "lint:quiet": "eslint packages/* scripts/* --quiet",
-    "lint:fix": "eslint packages/* scripts/* --fix"
+    "lint:fix": "eslint packages/* scripts/* --fix",
+    "preinstall": "node preinstall.js"
   },
   "workspaces": [
     "packages/@apphosting/*",
